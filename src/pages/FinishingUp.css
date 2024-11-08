@@ -21,6 +21,10 @@
                     color: var(--marine-blue);
                     font-weight: bolder;
                 }
+
+                a {
+                    font-size: 0.8rem;
+                }
             }
 
             .plan-price-container {
