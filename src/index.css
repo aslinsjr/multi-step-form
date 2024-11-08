@@ -1,0 +1,46 @@
+:root {
+  --white: hsla(0, 0%, 100%);
+  --alabaster: hsl(231, 100%, 99%);
+  --magnolia: hsl(217, 100%, 97%);
+  --light-gray: hsl(229, 24%, 87%);
+  --cool-gray: hsl(231, 11%, 63%);
+
+
+  --marine-blue: hsl(213, 96%, 18%);
+  --light-blue: hsl(206, 94%, 87%);
+  --pastel-blue: hsl(228, 100%, 84%);
+  --purplish-blue: hsl(243, 100%, 62%);
+  --strawberry-red: hsl(354, 84%, 57%);
+
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--marine-blue);
+  background-color: var(--marine-blue);
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", serif;
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: var(--magnolia);
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+
+}

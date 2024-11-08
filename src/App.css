@@ -1,0 +1,45 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  width: 50rem;
+  height: 30rem;
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  gap: 5vw;
+}
+
+.side-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section {
+  width: 90%;
+  padding: 2rem 0;
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: var(--cool-gray);
+  }
+}
+
+/* @media screen and (max-height: 600px) {
+  .app {
+    height: 95vh;
+  }
+} */

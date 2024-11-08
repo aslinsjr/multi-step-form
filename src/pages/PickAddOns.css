@@ -1,0 +1,48 @@
+.add-ons-container {
+        margin:  2rem 0;
+
+        .input-control {
+            margin: 0.5rem 0;
+            padding: 0.5rem 0;
+            display: grid;
+            align-items: center;
+            grid-template-columns: 0.25fr 0.75fr 0.25fr;
+            border: 1px solid var(--light-gray);
+            text-align: center;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            transition: 0.2s;
+    
+            label {
+                text-align: left;
+                font-weight: bold;
+                pointer-events: none;
+    
+                p {
+                    font-weight: normal;
+                    font-size: 0.8rem;
+                }
+            
+            }
+            
+    
+            input[type="checkbox"] {
+                width: 1rem;
+                color-scheme: none;
+                margin-left: 1.5rem;
+                cursor: pointer;
+            }
+    
+            span {
+                font-size: 0.8rem;
+                color: var(--purplish-blue)
+            }
+        }
+    
+        .input-control:hover {
+            border: 1px solid var(--purplish-blue);
+            transform: scale(1.05);
+        }
+
+    
+}
