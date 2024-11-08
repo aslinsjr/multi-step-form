@@ -46,3 +46,41 @@
         height: 100%;
     }
 }
+
+#mobile-img {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+
+    .nav-container img {
+        display: none;
+    }
+
+    #mobile-img {
+        display: flex;
+        position: absolute;
+        top: -25vh;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+    .nav-container {
+        position: inherit;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-container .nav-view {
+        position: inherit;
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+    .nav-container .nav-view .showing-box .step-description {
+        display: none;
+    }
+  }

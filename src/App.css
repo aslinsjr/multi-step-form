@@ -38,8 +38,23 @@ section {
   }
 }
 
-/* @media screen and (max-height: 600px) {
-  .app {
-    height: 95vh;
+@media screen and (max-width: 375px) {
+
+  body {
+    height: fit-content;
+    position: relative;
   }
-} */
+
+  .app {
+    width: 95vw;
+    flex-direction: column;
+    background-color: transparent;
+  }
+
+  .side-container {
+    background-color: var(--white);
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+}

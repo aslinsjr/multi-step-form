@@ -43,6 +43,7 @@ const NavComponent = () => {
 
       </div>
       <img src="./bg-sidebar-desktop.svg" alt="Side Bar Image" />
+      <img src="./bg-sidebar-mobile.svg" alt="" id="mobile-img" />
     </nav>
   )
 }
