@@ -1,8 +1,51 @@
-# React + Vite
+# Frontend Mentor -  Multi-step Form Solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [ challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/). 
 
-Currently, two official plugins are available:
+Frontend Mentor challenges help improve my coding skills by building realistic projects. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
+
+## Overview
+
+### Screenshot
+
+![](./public/screenshot.png)
+
+### Links
+
+- Solution URL: [Repository](https://github.com/aslinsjr/multi-step-form)
+- Live Site URL: [Page](https://multi-step-form-tau-rouge.vercel.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- JavaScript
+
+### What I learned
+
+I learned how to overcome some challenges with positioning, margins and how to create small button animations using just HTML and CSS.
+
+### Continued development
+
+In the process of continuing to develop my skills, I intend to focus on deepening use of FlexBox and the precision of responsiveness.
+
+## Author
+
+- Linkedln - [Alexandre Lins](https://www.linkedin.com/in/aslinsjr/)
+- Frontend Mentor - [@aslinsjr](https://www.frontendmentor.io/profile/aslinsjr)
+
