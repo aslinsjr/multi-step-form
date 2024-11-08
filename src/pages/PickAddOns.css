@@ -30,7 +30,7 @@
                 width: 1rem;
                 color-scheme: none;
                 margin-left: 1.5rem;
-                cursor: pointer;
+                pointer-events: none;
             }
     
             span {
